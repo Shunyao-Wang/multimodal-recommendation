@@ -11,7 +11,7 @@ print(movieID)
 
 # data_dir = "../data/"  # MFCC保存的目录
 data_dir = "F:/data/"
-data_dir = "/home/wang/dev/data/" # ubuntu
+# data_dir = "/home/wang/dev/data/" # ubuntu
 K = 3  # 高斯混合模型的聚类中心数
 D = 39
 
