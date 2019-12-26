@@ -12,7 +12,7 @@ movieID = [int(x) for x in file]
 file.close()
 print(movieID)
 
-K = 3  # 高斯混合模型的聚类中心数
+K = 20  # 高斯混合模型的聚类中心数
 D = 39
 
 result_list = np.zeros((len(movieID), (2 * D + 1) * K), dtype=np.float32)
