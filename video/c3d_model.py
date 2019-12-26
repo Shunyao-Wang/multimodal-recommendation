@@ -60,7 +60,7 @@ def get_model(backend='tf', with_weights=''):
     model.add(Dropout(.5))
     model.add(Dense(487, activation='softmax', name='fc8'))
 
-    if with_weights:
+    if with_weights == "":
         model.load_weights(WEIGHTS_PATH)
 
     return model
