@@ -1,0 +1,37 @@
+0,Argentina
+1,Australia
+2,Austria
+3,Canada
+4,China
+5,Colombia
+6,Denmark
+7,East Germany
+8,Finland
+9,France
+10,Germany
+11,Hong Kong
+12,Hungary
+13,India
+14,Iran
+15,Ireland
+16,Italy
+17,Japan
+18,Mexico
+19,Netherlands
+20,New Zealand
+21,Poland
+22,Portugal
+23,Republic of Macedonia
+24,Romania
+25,Russia
+26,South Korea
+27,Soviet Union
+28,Spain
+29,Sweden
+30,Switzerland
+31,Taiwan
+32,UK
+33,UNKNOWN
+34,USA
+35,Vietnam
+36,West Germany
