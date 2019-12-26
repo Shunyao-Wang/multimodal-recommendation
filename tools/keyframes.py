@@ -12,7 +12,7 @@ DATAPATH = "../data/"
 # DATAPATH = "F:/data/"
 # DATAPATH = "/home/wang/dev/data/" # ubuntu
 
-file = open(DATAPATH + 'MovieID.txt', 'r')
+file = open(DATAPATH + 'movieID.txt', 'r')
 movieID = [int(x) for x in file]
 file.close()
 print(movieID)
