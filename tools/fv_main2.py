@@ -20,7 +20,7 @@ tmp = 0
 for id in movieID:
     mfcc_file = DATAPATH + "mfccs/" + str(id) + "_MFCC.npy"
     mfcc = np.load(mfcc_file)  # MFCC特征维数为D，即39
-    means, covs, weights = fv.generate_gmm(DATAPATH, mfcc, 3)
+    means, covs, weights = fv.generate_gmm(DATAPATH, mfcc, K)
     # fv输出的向量维度为(2*D+1)*K
     try:
         result = fv.fisher_vector(mfcc, means, covs, weights)
