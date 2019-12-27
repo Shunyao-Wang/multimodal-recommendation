@@ -12,7 +12,7 @@ movieID = [int(x) for x in file]
 file.close()
 print(movieID)
 
-K = 20  # 高斯混合模型的聚类中心数
+K = 5  # 高斯混合模型的聚类中心数
 D = 39
 
 result_list = np.zeros((len(movieID), (2 * D + 1) * K), dtype=np.float32)
@@ -26,7 +26,7 @@ for id in movieID:
         result = fv.fisher_vector(mfcc, means, covs, weights)
         result_list[tmp] = result
         print("id=" + str(id) + " over")
-    except ValueError:
+    except:  # 无论任何异常都跳过
         print("id=" + str(id) + " fail!!!!!!!!!!!!!!!!!!!!!!!")
     tmp += 1
 savefile = DATAPATH + "features/audio_feature.npy"
